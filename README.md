@@ -17,6 +17,7 @@ The feature-based classifier relies on the following features:
 I chose to work with a simple logistic regression, as it appears to be the most performant model compared to other models, such as SVM, Gradient Boosting or Naive Bayes ones. I also chose to work with all the training data, despite unbalanced classes. To solve this issue, I have specified different class weights in the logistic regression model, so that smaller classes have a bigger weight in the classification task.
 
 **Additional tricks**
+
 In addition to these features, two methods are used to improve the performance of the classifier. 
 
 First, accoring to Lev Ratinov and Dan Roth (Ratinov  & Roth, 2009), the BILOU tagging scheme is more efficient for NER tasks than the BIO scheme. The BILOU scheme assigns the following tags to words:
