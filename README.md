@@ -1,7 +1,7 @@
 # NamedEntityRecognition
 Recognition of Named-Entities in user generated content in Python
 
-In this report, I analyze a neural network model for the Named-Entity Recognition (NER) task, that can be viewed as a classification problem. This task was studied as part of the W-NUT Shared Task in 2017, which challenged participants with unusual and previously unseen entities. I achieve this task by studying two kinds of classification algorithms: a feature-based and a neural network.
+In this project, I analyze a neural network model for the Named-Entity Recognition (NER) task, that can be viewed as a classification problem. This task was studied as part of the W-NUT Shared Task in 2017, which challenged participants with unusual and previously unseen entities. I achieve this task by studying two kinds of classification algorithms: a feature-based and a neural network.
 
 ## Feature-based classifier
 The feature-based classifier relies on the following features:
